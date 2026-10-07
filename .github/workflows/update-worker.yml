@@ -6,7 +6,7 @@ on:
     branches:
       - main
 
-  # 每天 UTC 01:00 自动检查
+  # 每周一 UTC 01:00 自动检查
   schedule:
     - cron: "0 1 * * 1"
 
